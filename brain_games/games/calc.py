@@ -1,4 +1,4 @@
-from brain_games.helpers import random_operation, random_num
+from brain_games.helpers import random_num
 import operator
 import random
 

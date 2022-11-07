@@ -10,8 +10,3 @@ def is_even(num):
 
 def random_num():
     return random.randint(1, 100)
-
-
-def random_operation():
-    operations = ['+', '-', '*']
-    return operations[random.randint(1, 3)]
