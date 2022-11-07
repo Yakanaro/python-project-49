@@ -1,5 +1,4 @@
 import prompt
-from brain_games.helpers import random_num
 from brain_games.cli import welcome_user
 
 
@@ -11,7 +10,8 @@ def game_logic(question, correct_answer):
         return True
     else:
         print(
-            f'{user_answer} is wrong answer ;(. Correct answer was "{correct_answer}"')
+            f'{user_answer} is wrong answer ;(. Correct answer was'
+            f' "{correct_answer}"')
         return False
 
 
